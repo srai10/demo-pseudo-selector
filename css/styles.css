@@ -1,0 +1,50 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+section:first-child {
+    background-color: crimson;
+}
+
+section:nth-child(2) {
+    background-color: tomato;
+}
+
+section:nth-child(3) {
+    background-color: khaki;
+}
+
+section:nth-child(4) {
+    background-color: lightgreen;
+    order: -1;
+}
+
+section:nth-child(5) {
+    background-color:lightseagreen ;
+}
+
+section:last-child {
+    background-color: steelblue;
+}
+
+section:only-child {
+    background-color: darkslategray;
+}
+
+p:first-of-type {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+p:last-of-type {
+    font-size: 1.125rem;
+    font-family: sans-serif;
+}
